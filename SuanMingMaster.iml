@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="UPDATE_PROPERTY_FILES" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="android-async-http-1.4.4" level="project" />
+    <orderEntry type="library" name="android-support-v4" level="project" />
+    <orderEntry type="library" name="baidumapapi_v3_2_0" level="project" />
+    <orderEntry type="library" name="easemobchat_2.1.9" level="project" />
+    <orderEntry type="library" name="gson-2.2.5" level="project" />
+    <orderEntry type="library" name="locSDK_3.3" level="project" />
+    <orderEntry type="library" name="picasso" level="project" />
+    <orderEntry type="library" name="shiro-all-1.2.3" level="project" />
+    <orderEntry type="library" name="universal-image-loader-1.9.2" level="project" />
+    <orderEntry type="library" name="libammsdk" level="project" />
+    <orderEntry type="library" name="opensdk" level="project" />
+    <orderEntry type="library" name="open_sdk_r5043" level="project" />
+    <orderEntry type="library" name="mta-sdk-1.6.2" level="project" />
+    <orderEntry type="library" name="weiboSDKCore_3.1.2" level="project" />
+    <orderEntry type="library" name="alipaySdk-20151112" level="project" />
+    <orderEntry type="library" name="UPPayAssistEx" level="project" />
+    <orderEntry type="library" name="UPPayPluginExStd" level="project" />
+    <orderEntry type="library" name="BmobSDK_V3.4.5_1111" level="project" />
+    <orderEntry type="library" name="BmobPay_V1.0.3" level="project" />
+  </component>
+</module>
+

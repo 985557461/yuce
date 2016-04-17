@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="25dp"
+          android:id="@+id/broadDesc"
+          android:text="2016会好吗？评价很详细"
+          android:textColor="#e1a694"
+          android:textSize="12sp"
+          android:singleLine="true"
+          android:ellipsize="end"/>

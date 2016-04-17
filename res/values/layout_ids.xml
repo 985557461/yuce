@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view_alert_dlg_no_title" type="id"/>
+    <item name="hc_pop_listview" type="id"/>
+    <item name="view_date_pick_dlg" type="id"/>
+    <item name="account_info_dialog" type="id"/>
+    <item name="scroll_view_dialog" type="id"/>
+    <item name="hc_dashang_confirm_alert" type="id"/>
+    <item name="hc_dashang_input_confirm_alert" type="id"/>
+    <item name="hc_chongzhi_input_confirm_alert" type="id"/>
+    <item name="hc_add_bank_card_dialog" type="id"/>
+    <item name="hc_weixin_card_dialog" type="id"/>
+    <item name="hc_zhifubao_card_dialog" type="id"/>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <!--正方形的图片-->
+    <com.example.YuCeClient.widget.FixWidthImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="bottom|left"/>
+    <!--删除按钮-->
+    <ImageView
+            android:id="@+id/delete"
+            android:layout_width="24dp"
+            android:layout_height="18dp"
+            android:layout_gravity="top|right"
+            android:src="@drawable/icon_delete"/>
+</FrameLayout>

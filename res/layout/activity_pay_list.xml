@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/common_white"
+              android:paddingTop="15dp"
+              android:paddingBottom="15dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/zhiFuBaoPay"
+            android:background="@color/common_black"
+            android:text="支付宝支付"
+            android:textColor="@color/common_white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/weiXinPay"
+            android:background="@color/common_black"
+            android:text="微信支付"
+            android:textColor="@color/common_white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/yinLianPay"
+            android:background="@color/common_black"
+            android:text="银联支付"
+            android:textColor="@color/common_white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+</LinearLayout>

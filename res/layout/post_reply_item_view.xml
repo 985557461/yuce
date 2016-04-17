@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxLength="15"
+                android:id="@+id/replyContent"
+                android:text="标题党鉴定完毕"
+                android:textColor="@color/common_gray"
+                android:layout_marginRight="20dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/replyNickName"
+                android:text="欢欢欢娘"
+                android:textColor="@color/common_black"
+                android:textSize="11sp"
+                android:singleLine="true"
+                android:ellipsize="end"/>
+    </LinearLayout>
+</LinearLayout>

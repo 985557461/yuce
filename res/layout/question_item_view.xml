@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:gravity="center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="15dp"
+              android:paddingRight="15dp"
+              android:paddingTop="17dp"
+              android:paddingBottom="17dp">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="事主疑问:"
+            android:textSize="13sp"
+            android:textColor="@color/common_black"
+            android:layout_marginRight="5dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content"
+            android:text="已经分手了，现在的天气真不错,你们再干什么呢？凑字数，显示多行的时候看看效果，看看怎么样，好不好？"
+            android:textSize="13sp"
+            android:background="@drawable/bg_mes_ta"
+            android:textColor="@color/common_black"/>
+</LinearLayout>

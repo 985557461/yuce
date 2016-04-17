@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 线性布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:orientation="vertical">
+    <!-- 文本控件
+    	显示当前月份 -->
+    <TextView
+            android:id="@+id/show"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="月份"/>
+    <!-- 网格视图
+     -->
+    <GridView
+            android:id="@+id/myDate"
+            android:layout_width="match_parent"
+            android:layout_height="355dp"
+            android:numColumns="7"></GridView>
+    <Button
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="签到"/>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000000"
+              android:orientation="vertical">
+    <com.example.YuCeClient.widget.cropimage.CropImageView
+            android:id="@+id/cropImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_gravity="bottom">
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="取消"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="30dp"
+                android:id="@+id/cancel"/>
+        <ImageView
+                android:id="@+id/lockImage"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="center"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_lock_image"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="选取"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingRight="30dp"
+                android:id="@+id/finish"/>
+    </LinearLayout>
+</FrameLayout>

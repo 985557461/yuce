@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#e4e4e4"
+              android:orientation="vertical">
+
+    <include
+            android:id="@+id/layout_header"
+            layout="@layout/layout_header"/>
+
+    <com.example.YuCeClient.widget.photo.LoadingWrapperFrame
+            android:id="@+id/photo_album_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <GridView
+                android:id="@+id/album_gridview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="@android:color/transparent"
+                android:gravity="center"
+                android:horizontalSpacing="15dip"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="2"
+                android:paddingLeft="12dip"
+                android:paddingRight="12dip"
+                android:paddingTop="15dip"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="15dip"/>
+
+        <TextView
+                android:id="@+id/photo_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="未找到照片"
+                android:textColor="#999999"
+                android:textSize="22sp"
+                android:visibility="gone"/>
+    </com.example.YuCeClient.widget.photo.LoadingWrapperFrame>
+</LinearLayout>
